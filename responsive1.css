@@ -1,0 +1,236 @@
+
+
+@media (max-width:768px){
+    .all-cover{
+        width:238% !important;
+       }
+   .container{
+    width:100%;
+    margin:0 10px !important
+   }
+   .sec-title h1{
+    font-size: 40px !important;
+    
+   }
+ .sec-title p{
+   font-size: 35px !important;
+ }
+   /* banner sec */
+   .flexbanner{
+    text-align: center;
+   }
+   .btn-flex{
+   justify-content: center !important ;
+   flex-wrap: wrap !important;
+    
+   }
+   .detail{
+    width:100% !important;
+   }
+   .btn-flex i{
+    margin-top: 60px !important;
+     font-size: 35px !important;
+   }
+   /* about sec */
+   .flexabout{
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    margin:10px 0;
+}
+   .aboutcontent{
+    width:65% !important;
+   }
+   .aboutcontent p{
+    font-size: 25px !important;
+    }
+    /* service start */
+    .flexservice{
+        display:flex;
+         flex-wrap: wrap !important;
+    }
+    .serviceone{
+        display: flex;
+        justify-content: space-between !important;
+    }
+    .serviceone h3{
+        font-size: 27px !important;
+    }
+    .serviceone p{
+        font-size: 24px !important;
+    }
+    .servicecontent{
+        width:100% !important;
+    }
+    .servicecontent .img-1{
+        width:90% !important;
+    }
+    .servicecontent .img-2 {
+        width: 50% !important;
+        position: absolute;
+        top: 720px !important;
+        left: 565px !important;
+        bottom: 0px;
+        border-radius: 10px;
+    }
+    .servicecontent2{
+        width:100% !important;
+        margin-top: 400px;
+    }
+    .servicecontent2 h2{
+        font-size:45px !important;
+        margin-top: 50px !important;
+    }
+    .servicecontent2 h1{
+        font-size:74px !important;
+        margin-top: 30px !important;
+    }
+    .servicepara{
+        font-size:40px !important;
+         line-height: 50px !important;
+         margin-top: 30px !important;
+    }
+   
+    .servicetwo{
+        justify-content: end !important;
+        
+    }
+    .downbtn{
+        margin-top: 30px !important;
+    }
+   
+   
+/*  menu sec */
+.flexmenu{
+    display:flex;
+  flex-wrap: wrap !important;
+}
+.menusection{	
+    padding:40px 0;
+}
+    .menucontent{
+        width:100% !important;
+    }
+    .menucontent2{
+        width:70% !important;
+        text-align: center !important;
+        margin-left:140px !important;
+        margin-top: 80px;
+        background-color:rgb(166 142 233 / 23%);
+			padding: 50px;
+
+    }
+    .menucontent h3{
+        font-size: 40px !important;
+    }
+    .menucontent h1{
+        font-size: 53px !important;
+    }
+    .menucontent p{
+        font-size: 38px !important;
+        line-height: 55px !important;
+    }
+    .menucontent2 h2{
+        font-size: 42px !important;
+    }
+    .menucontent2 h1{
+        font-size: 45px !important;
+    }
+    .menucontent2 p{
+        font-size: 33px !important;
+    }
+    /* porfoilo sec */
+    .flexspecial{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center !important;
+    }
+    .specialcontent{
+        width:65% !important;
+    
+    }
+    .specialcontent img{
+        height:300px !important;
+    }
+    /* contact  sec */
+    .contact{
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+    .conticon{
+        width:70% !important;
+        margin-top: 50px !important;
+        height: 150px;
+    }
+    .conticon .fa{
+        width:70px !important;
+        height:70px !important;
+        line-height: 60px !important;
+        border-radius:50% !important;
+        font-size: 40px !important;
+           left:350px !important;
+           top:-28px !important;
+          
+    }
+    .conticon address{
+        margin-top: 50px !important;
+        font-size: 30px !important;
+    }
+   
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .aboutcontent{
+        width:45% !important;
+         margin:15px !important;
+       }
+    .servicecontent .img-1{
+        width:80% !important; 
+    }
+    .servicecontent .img-2 {
+        width: 50% !important;
+        position: absolute;
+        top: 620px !important;
+        left: 565px !important;
+        bottom: 0px;
+        border-radius: 10px;
+    }
+    .servicecontent2 h2{
+        font-size:45px !important;
+        margin-top: 70px !important;
+    }
+    .back-box{
+        width:80% !important;
+        margin-left: 90px !important;
+    }
+    .menucontent2{
+        width:90% !important;
+        margin-left:50px !important;
+        margin-top: 80px;
+    }
+    .specialcontent{
+        width:45% !important;
+      
+    }
+    .specialcontent img{
+        height:300px !important;
+    }
+    .conticon{
+        width:45% !important;
+        height: 250px;
+        margin-top: 80px !important;
+    }
+    .conticon .fa{
+        width: 90px !important;
+        height: 90px !important;
+        line-height: 90px !important;
+        border-radius: 50% !important;
+        font-size: 51px !important;
+        left: 190px !important;
+        top: -47px !important;
+    }
+    .conticon address{
+        margin-top: 50px !important;
+        font-size: 35px !important;
+    }
+   
+}

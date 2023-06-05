@@ -1,0 +1,366 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: "Open Sans", sans-serif;
+   }
+ 
+   /*====common style start====*/
+   .all-cover{
+	background:linear-gradient(#00000077,#00000076);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+   }
+   .container{
+	width:1140px;
+	margin:0 auto;
+	padding:0 15px;
+   }
+    .sec-title{
+	width:100%;
+	margin-bottom:40px;
+    text-align: center;
+   }
+   .sec-title h1{
+    color:rgb(237 233 111);
+    font-size: 32px;
+	background-color:rgb(166 142 233 / 23%);
+   }
+   .sec-title p{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 22px;
+   }
+	
+	
+    /*=============common style end =============*/
+	
+		/*===================== banner start=================*/
+		.back-video{
+			height:100%;
+			width:100%;
+			object-fit: cover;
+			left:0;
+			top:0;
+			position: fixed;
+			z-index:-1;
+		}
+		.bannersection{	
+			padding:80px 0;
+		}
+		.flexbanner{
+			display:flex;
+			justify-content:center;
+		}
+        .bannercontent h3{
+          color:#fff;
+          font-size: 50px;
+        }
+        .bannercontent h1{
+            color:rgb(237 233 111);
+            font-size: 90px;
+            font-weight: 600;
+			margin-top: 30px;
+        }
+        .bannercontent h4{
+            color:#4ceef6;
+            font-size: 55px;
+			margin-top: 30px;
+        }
+		.btn-flex{
+			display:flex;
+            margin-top: 50px;
+			cursor: pointer;
+		}
+		.btn-flex i{
+			margin: 15px 25px;
+			width:50px;
+			height:50px;
+			text-align: center;
+			line-height: 50px;
+			background-color:#fff;
+			border:solid 1px #fff;
+			color:blue;
+			border-radius: 50%;
+			font-size: 28px;
+		}
+		.btn-flex .face i:hover{
+			background-color: blue;
+			color:#fff;
+			border:none;
+			transition: 1s linear;
+		}
+		.btn-flex .twit i:hover{
+			background-color: rgb(77, 187, 255);
+			color:#fff;
+			border:none;
+			transition: 1s linear;
+		}
+		.btn-flex .watts i:hover{
+			background-color: rgb(4, 236, 4);
+			color:#fff;
+			border:none;
+			transition: 1s linear;
+		}
+		.btn-flex .insta i:hover{
+			background-color:#ff0062;
+			color:#fff;
+			border:none;
+			transition: 1s linear;
+		}
+		/*===================== about sec start=================*/
+		
+		.aboutsection{	
+            color:#fff;
+			padding:60px 0;
+		}
+		.flexabout{
+			display:flex;
+			justify-content:space-between;
+		}
+		.aboutcontent{
+			background-color:rgb(166 142 233 / 23%);
+			width:23%;
+            padding: 30px;
+            border-radius: 10px;
+			margin-top: 20px;
+        }
+        .aboutcontent h1{
+            font-size: 33px;
+            margin-top: 15px;
+			color:#4ceef6;
+        }
+        .aboutcontent .fa{
+            font-size: 35px;
+            color:rgb(237 233 111);
+        }
+        .aboutcontent p{
+        color: #fff;
+        margin-top: 15px;
+        font-size: 20px;
+        }
+		.aboutcontent:hover{
+			cursor:pointer;
+			box-shadow: 0 0 20px #ccc;
+		}
+		.aboutcontent:hover .fa{
+			color:#4ceef6;
+		}
+
+		/*============ service start=============*/
+		.servicesection{	
+			padding:80px 0;
+            padding-bottom: 70px;
+		}
+		.flexservice{
+			display:flex;
+			justify-content:space-between;
+		}
+
+		.servicecontent{
+			width:30%;
+            position: relative;
+		}
+        .servicecontent .img-1{
+            width:100%;
+           border-radius: 10px;
+        }
+        .servicecontent .img-2{
+            width: 70%;
+            position: absolute;
+            top: 290px;
+            left: -50px;
+            bottom: 0;
+            border-radius: 10px;
+        }
+        .servicecontent2{
+			width:60%;
+			color:#4ceef6;
+		}
+		.servicecontent2 h2{
+			color:rgb(237 233 111);
+			font-size: 28px;
+		}
+		.servicecontent2 h1{
+			font-size: 50px;
+            margin-top: 20px;
+		}
+		.servicepara{
+			color:#fff;
+			margin-top: 15px;
+			font-size: 22px;
+			line-height: 30px;
+		}
+		.back-box{
+			padding: 40px 0;
+			margin-top: 30px;
+			background-color:rgb(166 142 233 / 23%);
+			padding: 25px;
+			border-radius: 10px;
+		}
+        .serviceone{
+			display: flex;
+			margin-top: 10px;
+			line-height: 40px;
+			
+		}
+		.serviceone p{
+			color: #fff;
+			font-size: 22px;
+		}
+		.servicetwo{
+			margin-left:40px;
+		}
+		.downbtn{
+            margin-top: 30px;
+		}
+		.downbtn a{
+			padding: 10px;
+			width:20%;
+			text-decoration: none;
+			font-size: 16px;
+			background:transparent;
+			font-weight: 600;
+			color:#fff;
+			border-radius: 5px;
+			border:solid 1px;
+			
+			}
+			.downbtn a:hover{
+				background:#4ceef69e;
+				border:none;
+				cursor:pointer;
+			}
+           
+		/*============= menu start============*/
+		.menusection{	
+			padding:80px 0;
+		}
+        .flexmenu{
+			display:flex;
+			justify-content:space-between;
+		}
+		
+		.menucontent{
+			width:45%;
+		}
+		.menucontent2{
+			width:45%;
+		}
+		.menucontent h3{
+			color:rgb(237 233 111);
+			font-size: 28px;
+		}
+		.menucontent h1{
+           font-size: 43px;
+		   color:#4ceef6;
+		   margin-top: 20px;
+		}
+		.menucontent p{
+			color:#fff;
+			margin-top: 25px;
+			font-size: 22px;
+			line-height: 30px;
+		}
+		.menucontent2 h2{
+			font-size: 25px;
+			color:#4ceef6;
+		 }
+		 .menucontent2 h1{
+			font-size: 25px;
+			color:#fff;
+			margin-top: 20px;
+		 }
+		 .menucontent2 p{
+			color:#fff;
+			margin-top: 17px;
+			font-size: 22px;
+			
+		}
+		.menufront{
+			margin-top: 45px;
+		}
+
+
+		/*===============special start =============*/
+		.portfoliosection{	
+			padding:30px 0;
+		}
+		.flexspecial{
+			display:flex;
+            flex-wrap:wrap;
+			justify-content:space-between;
+		}
+		.specialcontent{
+			width:30%;
+            margin:15px;
+			margin-top: 20px;
+		}
+		.specialcontent img{
+			width:100%;
+			height:250px;
+			transition: all  ease 0.5s;
+		}
+		.specialcontent:hover img{
+			transform:scale(1.2);
+			 transition: all  ease 0.5s;
+		}
+		
+		/*==============events start==============*/
+		.eventsection{	
+			padding:80px 0;
+		}
+		.flexevent{
+			display:flex;
+			justify-content:space-between;
+		}
+		.eventcontent{
+			width:100%;
+           text-align: center;
+		}
+		
+		.contact{
+			margin-top: 75px;
+			display: flex;
+		}
+		.conticon{
+			cursor: pointer;
+			width:25%;
+			height:auto;
+		   text-align: center;
+		   background-color:rgb(166 142 233 / 23%);
+		   margin: 0 20px;
+		   padding: 10px 0px;
+		   border-radius: 6%;
+		      position:relative;
+		}
+		.conticon .fa{
+			width:55px;
+			height:55px;
+			line-height: 50px;
+		    color: #04e6f1;
+			background-color:#fff;
+			border-radius:50%;
+			font-size: 30px;
+			   position: absolute;
+			   left:90px;
+			   top:-28px;
+			  
+		}
+		.conticon address{
+			margin-top: 30px;
+			font-size: 20px;
+			color:#fff;
+		}
+		.conticon:hover{
+			box-shadow: 0 0 10px #ccc;
+
+		}
+		.conticon .fa:hover{
+			color:rgba(0, 0, 0, 0.555);
+            transform:scale(1.2);
+			 transition: all  ease 0.5s;
+		}
+       
+
